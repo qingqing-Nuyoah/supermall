@@ -1,23 +1,25 @@
 <template>
   <div id="app">
- <h2>我是弟弟的</h2>
-  </div>
+    <router-view/>
+  <mian-tab-bar/>
+ </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+import MianTabBar from 'components/comtent/mianTabbar/MianTabBar'
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components:{
+   MianTabBar
+
+  }
 }
 </script>
 
 <style>
+  @import "assets/css/base.css"
+
 
 
 </style>
-
-
-
