@@ -8,14 +8,14 @@
   
 </template>
 
-<script>
+<script >
 export default {
   name:'FeatureView'
 
 }
 </script>
 
-<style>
+<style scoped>
 .feauture img{
   width :100%
 }

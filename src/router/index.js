@@ -12,6 +12,8 @@ const Cart = () =>
 const Profile = () =>
     import ('views/profile/Profile');
 
+const Detail = () =>
+    import ('views/detail/Detail');
 
 const routes = [{
     path: '',
@@ -28,7 +30,10 @@ const routes = [{
 }, {
     path: '/Profile',
     component: Profile
-}, ]
+}, {
+    path: '/detail/:iid',
+    component: Detail
+}]
 
 const router = new VueRoter({
     routes,
